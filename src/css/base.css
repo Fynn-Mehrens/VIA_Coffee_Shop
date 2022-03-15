@@ -37,3 +37,15 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+#shopping_cart {
+    width: 8%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+#shopping_cart img {
+        height: 80%;
+    }
