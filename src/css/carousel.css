@@ -1,9 +1,10 @@
 * {
     box-sizing: border-box;
 }
-  
+
 .slider {
     width: 70%;
+
     text-align: center;
     overflow: hidden;
 
@@ -11,24 +12,14 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
-  
+
 .slides {
     display: flex;
-    
     overflow: hidden;
-    /* overflow-y: hidden;
-    overflow-x: auto; */
+
     scroll-snap-type: x mandatory;
-    
-    
-    
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
-    
-    /*
-    scroll-snap-points-x: repeat(300px);
-    scroll-snap-type: mandatory;
-    */
 }
 
 .slides::-webkit-scrollbar {
@@ -45,13 +36,15 @@
     background: transparent;
 }
 
-.slides > div {
+.slides>div {
     scroll-snap-align: start;
     flex-shrink: 0;
+
     width: 100%;
     max-width: 100%;
     height: 40vh;
     max-height: 20%;
+
     margin-right: 50px;
     border-radius: 10px;
     background: #E7DFD4;
@@ -59,23 +52,18 @@
     transform: scale(1);
     transition: transform 0.5s;
     position: relative;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 100px;
 }
 
-.slides > div img {
+.slides>div img {
     height: 100%;
 }
 
-
-
-  .slides > div:target {
-  /*   transform: scale(0.8); */
-  }
-  .author-info {
+.author-info {
     background: rgba(0, 0, 0, 0.75);
     color: white;
     padding: 0.75rem;
@@ -85,20 +73,13 @@
     left: 0;
     width: 100%;
     margin: 0;
-  }
-  .author-info a {
+}
+
+.author-info a {
     color: white;
-  }
-  /* img {
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  } */
-  
-  .slider > div > a {
+}
+
+.slider>div>a {
     display: inline-flex;
     width: 1.5rem;
     height: 1.5rem;
@@ -110,34 +91,18 @@
     margin: 0 0 0.5rem 0;
     position: relative;
     margin: 0.5%;
-  }
-  .slider > a:active {
+}
+
+.slider>a:active {
     top: 1px;
-  }
-  .slider > a:focus {
+}
+
+.slider>a:focus {
     background: #000;
-  }
+}
 
 #selectors {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-  
-  /* Don't need button navigation */
-/* @supports (scroll-snap-type) {
-    .slider > a {
-        display: none;
-    }
-} */
-  
-/* html, body {
-    overflow: hidden;
-}
-
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Ropa Sans', sans-serif;
-} */
