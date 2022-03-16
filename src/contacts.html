@@ -1,7 +1,8 @@
+<!-- Part - Selin Öztürk -->
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- References to Base CSS & Page CSS Sheet -->
+        <!-- References to Base CSS & Contacts CSS Sheet -->
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/contacts.css">
     </head>
@@ -26,10 +27,13 @@
 
         <!-- Content -->
         <article>
+            <!-- created one div for the logo and two id's in oder to be able to center it in CSS -->
             <div id="logo_container">
                 <img id="logo" src="images/Logo1.png" alt="image of Logo">
             </div>
            
+            <!--created a flexbox for all three employees in order to align the information boxes in a row  -->
+            <!-- The information boxes also have a flexbox inside which are column-oriented -->
             <div id="core">
                 <h1>Our Team</h1>
                 <div id="employees">
@@ -51,7 +55,7 @@
                 </div>
             </div>
             
-            <div>
+            <div id="mail_container">
                 <p><a href="mailto:326464@via.dk">Get in touch</a></p>
             </div>
         </article>
