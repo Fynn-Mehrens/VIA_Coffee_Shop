@@ -1,0 +1,28 @@
+:root{
+    --background: #E7DFD4;
+}
+
+body{
+ background-color: var(--background);
+}
+.navbar-light {
+    background-color: #E0A486 !important;
+}
+
+.btn-light {
+    background-color: #E0A486 !important;
+}
+
+.container {
+    background-color: #E7DFD4 !important;
+    height: ;
+}
+
+.row {
+    background-color: #E7DFD4 !important;
+}
+
+
+.employeesInfo{
+    background-color: #DEC1AE !important;
+}
