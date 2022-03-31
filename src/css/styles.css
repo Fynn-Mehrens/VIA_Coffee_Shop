@@ -15,7 +15,6 @@ body{
 
 .container {
     background-color: #E7DFD4 !important;
-    height: ;
 }
 
 .row {
@@ -25,4 +24,21 @@ body{
 
 .employeesInfo{
     background-color: #DEC1AE !important;
+}
+
+.img-fluid {
+    max-width: 90% !important;
+}
+
+
+.MoodImg img {
+    border-radius: 2.5rem !important;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.AboutUsText {
+    max-width: 90% !important;
 }
