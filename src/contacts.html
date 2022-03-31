@@ -1,72 +1,82 @@
-<!-- Part - Selin Öztürk -->
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- References to Base CSS & Contacts CSS Sheet -->
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/contacts.css">
-    </head>
+<html lang="en">
 
-    <body>
-        <!-- Header -->
-        <header>
-            <div id="home">
-                <p>VIA Coffee Shop</p>
-            </div>
-            <nav>
-                <p><a href="about_us.html">ABOUT US</a></p>
-                <p><a href="products.html">PRODUCTS</a></p>
-                <p><a href="sales.html">SALES</a></p>
-                <p><a href="gift_cards.html">GIFT CARDS</a></p>
-                <p><a href="contacts.html">CONTACTS</a></p>
-            </nav>
-            <div id="shopping_cart">
-                <img src="icons/shopping_cart.svg">
-            </div>
-        </header>
+<head>
+<title>Contacts</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width. initial-scale=1">
 
-        <!-- Content -->
-        <article>
-            <!-- created one div for the logo and two id's in oder to be able to center it in CSS -->
-            <div id="logo_container">
-                <img id="logo" src="images/Logo1.png" alt="image of Logo">
-            </div>
-           
-            <!--created a flexbox for all three employees in order to align the information boxes in a row  -->
-            <!-- The information boxes also have a flexbox inside which are column-oriented -->
-            <div id="core">
-                <h1>Our Team</h1>
-                <div id="employees">
-                    <div class="employees_container">
-                        <img class="img_employees" src="images/Gloria.png" alt="image of Gloria">
-                        <p>Gloria</p>
-                        <p>CEO</p>
-                    </div>
-                    <div class="employees_container">
-                        <img class="img_employees" src="images/Selin .png" alt="image of Selin">
-                        <p>Selin</p>
-                        <p>Head of Marketing</p>
-                    </div>
-                    <div class="employees_container">
-                        <img class="img_employees" src="images/Fynn.png" alt="image of Fynn">
-                        <p>Fynn</p>
-                        <p>Head of Sales</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div id="mail_container">
-                <p><a href="mailto:326464@via.dk">Get in touch</a></p>
-            </div>
-        </article>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
 
-        <!-- Footer -->
-        <footer>
-            <p>
-                BY GLORIA(<a href="https://github.com/gloriadesideri">@gloriadesideri</a>),
+<body>
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <a class="navbar-brand" href="#"><img class="rounded-circle ps-4" src="images/Logo.png" alt="Logo" width="auto" height="50">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#PageNavbar">
+         <span class="navbar-toggler-icon"></span>
+        </button>       
+
+        <div class="collapse navbar-collapse" id="PageNavbar">
+            <ul class="navbar-nav">
+             <li class="nav-item"><a class="nav-link" href="#">ABOUT US</a></li>
+             <li class="nav-item"><a class="nav-link" href="#">PRODUCTS</a></li> 
+             <li class="nav-item"><a class="nav-link" href="#">SALES</a></li> 
+             <li class="nav-item"><a class="nav-link" href="#">GIFT CARDS</a></li> 
+             <li class="nav-item active"><a class="nav-link" href="#">CONTACTS</a></li> 
+            </ul>
+        </div>
+    </nav>
+
+    <!--Content-->
+    <div class="container"> 
+        <h1 class="text-center fw-light mt-sm-4">Our Team</h1></div>
+        <div class="row d-flex justify-content-around m-sm-5">
+            <div class="employeesInfo col-12 col-lg-3 col-md-4 shadow p-3 mb-5 bg-body rounded-3">
+                <img src="images/Gloria_img.png" class="img-fluid rounded-circle p-4" alt="Employee Gloria">
+                <h3 class="text-center" >Gloria</h3>
+                <h4 class="text-center fw-light" >CEO</h4> 
+              </div>
+
+              <div class="employeesInfo col-12 col-lg-3 offset-md-1 offset-lg-1 col-md-4 p-3 shadow p-3 mb-5 bg-body rounded-3">
+                <img src="images/Selin_img.png" class="img-fluid rounded-circle p-4" alt="Employee Selin">
+                <h3 class="text-center" >Selin</h3>
+                <h4 class="text-center fw-light" >Head of Marketing</h4>
+              </div>
+
+              <div class="employeesInfo col-12 col-lg-3 offset-lg-1 col-md-4 p-3 shadow p-3 mb-5 bg-body rounded-3">
+                <img src="images/Fynn_img.png" class="img-fluid rounded-circle p-4" alt="Employee Fynn">
+                <h3 class="text-center" >Fynn</h3>
+                <h4 class="text-center fw-light" >Head of Sales</h4>
+              </div>
+          </div>
+
+        <div class="row">
+            <div class="col text-center">
+              <a class="btn btn-light btn-lg shadow bg-body rounded-3" href="mailto:326464@via.dk">Get in touch</a>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!--Footer-->
+    <footer  class="navbar fixed-bottom navbar-light bg-light">
+        <div class="p-2">
+            <p class="text-center">
+                BY GLORIA(<a  href="https://github.com/gloriadesideri">@gloriadesideri</a>),
                 SELIN(<a href="https://github.com/selinotrk">@selinotrk</a>)
                 AND FYNN(<a href="https://github.com/Fynn-Mehrens">@Fynn-Mehrens</a>)
             </p>
         </footer>
-    </body>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

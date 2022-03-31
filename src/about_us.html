@@ -1,57 +1,62 @@
-<!-- Part - Selin Öztürk -->
 <!DOCTYPE html>
-<html>
-    <head>
-        <!-- References to Base CSS & AboutUs CSS Sheet -->
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/aboutus.css">
-    </head>
+<html lang="en">
 
-    <body>
-        <!-- Header -->
-        <header>
-            <div id="home">
-                <p>VIA Coffee Shop</p>
-            </div>
-            <nav>
-                <p><a href="about_us.html">ABOUT US</a></p>
-                <p><a href="products.html">PRODUCTS</a></p>
-                <p><a href="sales.html">SALES</a></p>
-                <p><a href="gift_cards.html">GIFT CARDS</a></p>
-                <p><a href="contacts.html">CONTACTS</a></p>
-            </nav>
-            <div id="shopping_cart">
-                <img src="icons/shopping_cart.svg">
-            </div>
-        </header>
+<head>
+<title>AboutUs</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width. initial-scale=1">
 
-        <!-- Content -->
-        <article>
-            <!-- I gave the div and the img two different Id's in order to be able to position the image of the coffebeans in the middle of the webpage -->
-            <div id="about_us_img_container">
-                <img id="about_us_img" src="images/coffee_beans_aboutus.jpg" alt="image of coffee beans">
-            </div>
-            
-            <!-- I inserted two Id's to be able to position the text in the Paragraph in center -->
-            <div id="about_us_text_container">
-                <div id="container_about_us">
-                    <h1>About Us</h1>
-                    <p>WE LOVE THE SMELL AND TASTE OF FRESH COFFEE</p>
-                    <p>We, a small group of students, made it our mission to elevate the experience of coffee on VIA University College campus to the next level.</p>
-                    <p>Since 2018, we have been selecting the highest quality, yet most affordable coffee and make it available on VIA University College campus. Due to popular demand, we have decided to offer the selected coffee on our new website as well.</p> 
-                    <p>This gives YOU the opportunity to enjoy your beloved coffee also at home.</p>
-                    <h2>Your VIA Coffee Shop Team</h2> 
-                </div>
-            </div>
-        </article>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
 
-        <!-- Footer -->
-        <footer>
-            <p>
-                BY GLORIA(<a href="https://github.com/gloriadesideri">@gloriadesideri</a>),
-                SELIN(<a href="https://github.com/selinotrk">@selinotrk</a>)
-                AND FYNN(<a href="https://github.com/Fynn-Mehrens">@Fynn-Mehrens</a>)
-            </p>
-        </footer>
-    </body>
+<body>
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <a class="navbar-brand" href="#"><img class="rounded-circle ps-4" src="images/Logo.png" alt="Logo" width="auto" height="50">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#PageNavbar">
+         <span class="navbar-toggler-icon"></span>
+        </button>       
+
+        <div class="collapse navbar-collapse" id="PageNavbar">
+            <ul class="navbar-nav">
+             <li class="nav-item"><a class="nav-link" href="#">ABOUT US</a></li>
+             <li class="nav-item"><a class="nav-link" href="#">PRODUCTS</a></li> 
+             <li class="nav-item"><a class="nav-link" href="#">SALES</a></li> 
+             <li class="nav-item"><a class="nav-link" href="#">GIFT CARDS</a></li> 
+             <li class="nav-item active"><a class="nav-link" href="#">CONTACTS</a></li> 
+            </ul>
+        </div>
+    </nav>
+
+<!-- Content -->
+
+<div class="MoodImg"
+    
+></div>
+
+
+
+
+
+
+
+
+
+
+<!--Footer-->
+<footer  class="navbar fixed-bottom navbar-light bg-light">
+    <div class="p-2">
+        <p class="text-center">
+            BY GLORIA(<a  href="https://github.com/gloriadesideri">@gloriadesideri</a>),
+            SELIN(<a href="https://github.com/selinotrk">@selinotrk</a>)
+            AND FYNN(<a href="https://github.com/Fynn-Mehrens">@Fynn-Mehrens</a>)
+        </p>
+    </footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
