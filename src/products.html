@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <title>Products</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
     <link rel="stylesheet" href="./css/products.css" type="text/css" />
     <link rel="stylesheet" href="./css/base.css" type="text/css" />
 
@@ -13,25 +15,25 @@
     />
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <div id="home">
-          <p>VIA Coffee Shop</p>
-        </div>
-        <nav>
-          <p><a href="about_us.html">ABOUT US</a></p>
-          <p><a href="products.html">PRODUCTS</a></p>
-          <p><a href="sales.html">SALES</a></p>
-          <p><a href="gift_cards.html">GIFT CARDS</a></p>
-          <p><a href="contacts.html">CONTACTS</a></p>
-        </nav>
-        <div id="shopping_cart">
-          <img src="icons/shopping_cart.svg" />
-        </div>
-      </header>
-      <div class="logo-section"></div>
-      <div class="form section">
-        <form class="filter-form">
+    <header>
+      <div id="home">
+        <p>VIA Coffee Shop</p>
+      </div>
+      <nav>
+        <p><a href="about_us.html">ABOUT US</a></p>
+        <p><a href="products.html">PRODUCTS</a></p>
+        <p><a href="sales.html">SALES</a></p>
+        <p><a href="gift_cards.html">GIFT CARDS</a></p>
+        <p><a href="contacts.html">CONTACTS</a></p>
+      </nav>
+      <div id="shopping_cart">
+        <img src="icons/shopping_cart.svg" />
+      </div>
+    </header>
+    <div class="container-fluid wrapper h-100 w-100">
+      
+      <div class="container-fluid p-2 mb-2 w-100">
+        <form class="d-flex w-100 flex-wrap align-items-center justify-content-between  ">
           <input class="filters" type="text" placeholder="Search" />
           <select class="filters" name="Category">
             <option value="">Category</option>
@@ -114,7 +116,7 @@
           </div>
         </div>
       </div>
-      <footer>
+      <footer class="w-100">
         <p>
           BY GLORIA(<a href="https://github.com/gloriadesideri"
             >@gloriadesideri</a
