@@ -25,3 +25,11 @@
     height: 62.5%;
     border-radius: 1.5rem;
 }
+
+.row div {
+    background-color: #E0A486 !important;
+}
+
+.sale_widget img {
+    width: 55%;
+}

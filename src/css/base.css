@@ -19,42 +19,13 @@ body {
     margin: 0px;
 }
 
-header {
-    background-color: #E0A486;
-    width: 100%;
-    height: 8%;
-
-    display: flex;
-    justify-content: space-between;
-}
-
-nav {
-    width: 70%;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-nav p:hover {
-    font-size: 1.2rem;
-    transition: 0.2s;
-}
-
 article {
     background-color: #E7DFD4;
     height: 84%;
 }
 
 footer {
-    background-color: #E0A486;
     width: 100%;
-    height: 8%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #shopping_cart {

@@ -1,5 +1,7 @@
 .DS_Store
 .vscode/settings.json
 src/bootstrap-5.1.3-dist/*
-src/css/bootstrap.*
+src/css/bootstrap*
 src/js/bootstrap.*
+node_modules/*
+package-lock.json
